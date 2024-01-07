@@ -8,6 +8,7 @@ function TodoList() {
         text: 'Go to College',
         completed: true
         },
+        //siva
         {
         id: 2,
         text: 'Coding',
