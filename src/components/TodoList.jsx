@@ -39,7 +39,7 @@ function TodoList() {
          }
   return (
     <div className="todo-list">
-    <div className='todo-in'>
+    <div className='todo-siva'>
     <input
     value={text}
     placeholder='Enter the work to do'
