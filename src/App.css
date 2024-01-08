@@ -35,7 +35,7 @@ h1{
   padding: 2rem;
 }
 .todo-item {
-  margin-left: 2rem;
+  margin-left: 4rem;
   margin-top: 1rem;
   border-radius: 1.25rem;
   width: 13rem;
@@ -60,9 +60,36 @@ h1{
  }
  .add{
   margin-left: 1rem;
+  cursor: pointer;
+  background-color: #fff;
+  height: 2rem;
+  width: 7rem;
+  border-radius: 50px;
 
+ }
+ .add:hover{
+  letter-spacing: 3px;
+  background-color: rgb(236, 87, 87);
+  color: #fff;
+  box-shadow: rgb(236, 87, 87) 0px 7px 29px 0px;
+ }
+ .add:active{
+  letter-spacing: 3px;
+  background-color: rgb(236, 87, 87);
+  color: #fff;
+  box-shadow: rgb(236, 87, 87) 0px 7px 27px 0px;
+  transform: translateY(10px);
  }
  .cancel:hover{
   background-color: red;
  }
+ .todo-siva input{
+  border: 2px solid red;
+  height: 2rem;
+  border-radius: 4px;
+ }
+ .todo-siva input:focus{
+  border: 2px solid white;
+ }
+
 

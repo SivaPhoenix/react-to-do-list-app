@@ -6,13 +6,13 @@ function TodoList() {
         {
         id: 1,
         text: 'Go to College',
-        completed: true
+        completed: false
         },
         //siva
         {
         id: 2,
         text: 'Coding',
-        completed: false
+        completed: true
         }
         ]);
     
@@ -46,7 +46,7 @@ function TodoList() {
     placeholder='Enter the work to do'
     onChange={e => setText(e.target.value)} 
     />
-    <button className='add' onClick={() => addTask(text)}>Add</button>
+    <button className='add' onClick={() => addTask(text)}>ADD ME</button>
     </div>
     {tasks.map(task => (
     <TodoItem
